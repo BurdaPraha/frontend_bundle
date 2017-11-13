@@ -1,0 +1,9 @@
+services:
+
+  bp.frontend.twig:
+      class: BurdaPraha\FrontendBundle\Twig\Extension
+      arguments:
+          - '@request_stack'
+          - '%kernel.root_dir%/../web'
+      tags:
+          - { name: twig.extension }

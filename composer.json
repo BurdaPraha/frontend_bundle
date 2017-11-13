@@ -1,0 +1,21 @@
+{
+    "name": "burdapraha/frontend_bundle",
+    "description": "symfony 2 frontend bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "homepage": "https://github.com/BurdaPraha/frontend_bundle",
+    "authors": [
+        {
+            "name": "Michal Landsman",
+            "email": "landsman@studioart.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BurdaPraha\\FrontendBundle\\": ""
+        }
+    },
+    "require": {
+        "sentry/sentry-symfony": "^1.0"
+    }
+}
